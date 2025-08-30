@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { IoMenu } from "react-icons/io5";
 import './styles/header.css'
 
 const Header = () => {
@@ -17,7 +18,9 @@ const Header = () => {
                 <a className="post">Post Job</a>
             </div>
             <div className="mobile-nav">
-                <button onClick={() => setNavbar(!navbar)}>menu</button>
+                <button onClick={() => setNavbar(!navbar)}>
+                    <IoMenu/>
+                </button>
             </div>
         </header>
         {navbar && 
