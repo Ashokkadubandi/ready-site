@@ -1,0 +1,120 @@
+.dream-job-section{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background-image: url('https://readdy.ai/api/search-image?query=professional%20modern%20office%20environment%20with%20diverse%20team%20of%20professionals%20working%20on%20computers%2C%20warm%20orange%20and%20white%20color%20scheme%2C%20bright%20clean%20workspace%20with%20natural%20lighting%2C%20modern%20corporate%20setting%2C%20people%20collaborating%20and%20networking%2C%20tech-savvy%20atmosphere&width=1200&height=600&seq=hero-bg-orange&orientation=landscape');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  background-position: center;
+}
+.dream-job-layer{
+  background-color: #ea580c;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.dream-job-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.dream-job-header{
+  color: white;
+  font-size: 2.5rem;
+}
+.dream-job-desc{
+  color: white;
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: center;
+}
+.dream-job-form{
+  background-color: white;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.dream-job-card{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media(max-width:636px){
+  .dream-job-card{
+    flex-wrap: wrap;
+  }
+}
+.dream-job-input-card{
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  
+}
+@media(max-width:636px){
+  .dream-job-input-card{
+    width: 100%;
+  }
+}
+.dream-job-input-card input{
+  padding: 1rem;
+  border: none;
+  outline: none;
+  width: 100%; 
+}
+@media(max-width:636px){
+  .dream-job-input-card input{
+    padding: 0.5rem;
+  }
+}
+.dreamjob-sub{
+  background-color: #ea580c;
+  color: white;
+  padding: 1rem;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+}
+@media(max-width:636px){
+  .dreamjob-sub{
+    width: 450px;
+  }
+}
+
+.popular-search{
+  color: #323f4b;
+  font-size: 1.2rem;
+}
+
+.popular-search span{
+  color: #ea580c;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.dreamjob-info{
+  display: flex;
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.job-status-info{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 50%;
+  color: white;
+}

@@ -1,0 +1,64 @@
+.compnay-hiring-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.hiring-comp-header{
+    font-size: 2rem;
+    color: #111827;
+}
+.hiring-comp-desc{
+    font-size: 1rem;
+    color: #4b5563;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.hiring-companies-con{
+    list-style-type: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hiring-comp-card{
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(255, 207, 185);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+.hiring-logo-card{
+    height: 50px;
+    width: 50px;
+    background-color: #111827;
+}
+.hiring-comp-name{
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.hiring-comp-name::first-letter{
+    text-transform: uppercase;
+}
+.view-all-card{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+.view-all{
+    padding-right: 0.5rem;
+
+}
