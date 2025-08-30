@@ -10,7 +10,7 @@
   background-position: center;
 }
 .dream-job-layer{
-  background-color: #ea580c;
+  background-color: #df7e24;
   opacity: 0.3;
   height: 100%;
   width: 100%;
@@ -26,24 +26,49 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
+  padding-top: 3rem;
 }
 .dream-job-header{
   color: white;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+@media(max-width:636px){
+  .dream-job-header{
+    font-size: 1.8rem;
+  }
 }
 .dream-job-desc{
   color: white;
   font-size: 1.5rem;
-  width: 50%;
+  width: 60%;
   text-align: center;
+  padding-top: 1rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+@media(max-width:636px){
+  .dream-job-desc{
+    width: 100%;
+    font-size: 1.2rem;
+
+  }
 }
 .dream-job-form{
   background-color: white;
   display: flex;
-  width: 70%;
+  width: 90%;
+  border-radius: 8px;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+}
+@media(max-width:636px){
+  .dream-job-form{
+    align-items: flex-start;
+  }
 }
 .dream-job-card{
   display: flex;
@@ -61,11 +86,12 @@
   display: flex;
   align-items: center;
   width: 400px;
-  
 }
 @media(max-width:636px){
   .dream-job-input-card{
-    width: 100%;
+    /* width: 100%; */
+    margin: 1rem;
+    padding-left: 5px;
   }
 }
 .dream-job-input-card input{
@@ -89,19 +115,24 @@
 }
 @media(max-width:636px){
   .dreamjob-sub{
-    width: 450px;
+    width: 100%;
   }
 }
-
 .popular-search{
   color: #323f4b;
   font-size: 1.2rem;
+  padding-top: 1rem;
 }
-
+@media(max-width:636px){
+  .popular-search{
+    text-align: start;
+    line-height: 1.5;
+  }
+}
 .popular-search span{
   color: #ea580c;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .dreamjob-info{
@@ -109,12 +140,24 @@
   padding-top: 3rem;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 80%;
+}
+@media(max-width:636px){
+  .dreamjob-info{
+    flex-direction: column;
+  }
 }
 .job-status-info{
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  width: 50%;
   color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media(max-width:636px){
+  .job-status-info{
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
 }

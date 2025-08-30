@@ -1,0 +1,112 @@
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262729;
+    padding: 1rem;
+}
+.footer-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:636px){
+    .footer-one{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.foo-company-info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+@media(max-width:636px){
+    .foo-company-info{
+        width: 100%;
+    }
+}
+.foo-logo{
+    width: 150px;
+    height: 70px;
+}
+.foo-comp-desc{
+    color: white;
+    padding: 0.5rem;
+    line-height: 1.5;
+}
+.foo-comp-logo-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding-top: 0.5rem;
+}
+@media(max-width:636px){
+    .foo-comp-logo-card{
+        width: 50%;
+    }
+}
+.foo-comp-mini-logo{
+    background-color: #ea580c;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+.foo-job-seekers{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    color: white;
+}
+@media(max-width:636px){
+    .foo-job-seekers{
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+}
+.foo-job-ul{
+    list-style-type: none;
+    color: #a7a7a7;
+    padding-top: 1rem;
+    line-height: 1.8;
+}
+.foo-job-ul li:hover{
+    color: #ffffff;  
+}
+hr{
+    background-color: rgb(51, 51, 51);
+    height: 2px;
+    width: 100%;
+    border: none;
+    margin-top: 2rem;
+}
+.foo-policy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 1rem;
+    width: 90%;
+}
+@media(max-width:636px){
+    .foo-policy{
+        flex-wrap: wrap;
+    }
+}
+.foo-policy-card{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+@media(max-width:636px){
+    .foo-policy-card{
+        width: 100%;
+        padding-top: 1rem;
+    }
+}

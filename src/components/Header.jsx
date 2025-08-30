@@ -28,6 +28,7 @@ const Header = () => {
                 <a>Find candidates</a>
                 <a>Dashboard</a>
                 <a>Sign in</a>
+                <a className="mob-post">Post</a>
         </div>}
     </div>
     )

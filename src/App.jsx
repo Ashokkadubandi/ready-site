@@ -6,9 +6,10 @@ import FeaturedJob from "./components/FeaturedJobs"
 import CompanyHiring from "./components/CompanyHiring"
 import CategorySec from "./components/CategorySec"
 import Opportunity from "./components/Opportunity"
+import FooterSec from "./components/Footer"
 
 const App = () => {
-  return <div>
+  return <div className="root-con">
     <Header/>
     <DreamJob/>
     <PremiumFeatures/>
@@ -16,6 +17,7 @@ const App = () => {
     <CompanyHiring/>
     <CategorySec/>
     <Opportunity/>
+    <FooterSec/>
   </div>
 }
 
