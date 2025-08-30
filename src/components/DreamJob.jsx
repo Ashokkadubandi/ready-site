@@ -3,7 +3,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { BsSuitcaseLg } from "react-icons/bs";
 import { FaRegBuilding } from "react-icons/fa";
 import { RxAvatar } from "react-icons/rx";
-import './styles/dreamjob.css'
+import './styles/dreamJob.css'
 
 const DreamJob = () => {
     return (
