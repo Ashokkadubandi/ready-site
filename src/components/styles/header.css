@@ -26,6 +26,10 @@ header img{
   align-items: center;
   margin-left: 1rem;
 }
+.navbar-routes a:hover{
+  color: #ea580c;
+  cursor: pointer;
+}
 @media(max-width:636px){
   .navbar-routes{
     display: none;

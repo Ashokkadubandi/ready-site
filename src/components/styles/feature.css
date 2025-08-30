@@ -66,6 +66,11 @@
 .text-content{
   padding-left: 5px;
 }
+@media(max-width:420px){
+  .text-content{
+    width: 50%;
+  }
+}
 .featured-job-title{
   color: #111827;
   font-size: 1rem;
@@ -104,8 +109,14 @@
   padding-left: 0.3rem;
 }
 .job-post-time{
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-bottom: 0.5rem;
+  text-wrap: wrap;
+}
+@media(max-width:636px){
+  .job-post-time{
+    font-size: 0.5rem;
+  }
 }
 .featured-view-all{
   background-color: #ea580c;

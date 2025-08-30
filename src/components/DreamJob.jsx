@@ -16,11 +16,11 @@ const DreamJob = () => {
             <div className="dream-job-card">
                 <div className="dream-job-input-card">
                     <CiSearch fontSize={'25px'}/>
-                    <input type="text"/>
+                    <input placeholder="Job title, keywords or company" type="text"/>
                 </div>
                 <div className="dream-job-input-card">
                     <CiLocationOn fontSize={'25px'}/>
-                    <input type="text"/>
+                    <input placeholder="City,state or remote" type="text"/>
                 </div>
                 <input value='Search jobs' className="dreamjob-sub" type="submit"/>
             </div>

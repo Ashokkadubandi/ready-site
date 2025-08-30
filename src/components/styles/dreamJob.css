@@ -134,6 +134,10 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+.popular-search span:hover{
+  color: #323f4b;
+  cursor: pointer;
+}
 
 .dreamjob-info{
   display: flex;
